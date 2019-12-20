@@ -21,8 +21,18 @@ function fetch(parent, childOptions) {
 function resolve(container, defaultResolver) {
 }
 
+/**
+ * This method is used to create the summary of this container for the published
+ * spine
+ * @param Object container - Object containing the containers data and parts a
+ */
+function buildSummary(container) {
+
+}
+
 module.exports = {
   ...info,
   fetch,
-  resolve
+  resolve,
+  buildSummary
 };
